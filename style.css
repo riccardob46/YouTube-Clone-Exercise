@@ -11,9 +11,6 @@ body{
 #main{
     width: 100%;
 }
-#content{
-    height: 100%;
-}
 #sidebar{
     display: flex;
     flex-direction: column;
@@ -63,4 +60,35 @@ body{
 }
 #mic-icon{
     margin: 0 0.5em;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 20px;            
+    padding: 20px;
+    justify-content: flex-start; 
+}
+.single-card{
+width: 435px;
+}
+.anteprima img {
+    width: 100%;
+}
+.bottom-card {
+    display: flex; 
+    margin-top: 12px;
+}
+.epi-logo {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+}
+.testo .title {
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+}
+.testo .description {
+    font-size: 12px;
+    margin-top: 4px;
 }
